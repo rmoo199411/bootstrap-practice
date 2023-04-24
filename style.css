@@ -1,0 +1,115 @@
+*{
+  list-style: none;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+/* 頭 */
+
+nav{
+  height: 60px;
+  background-color: #8b8989;
+}
+
+.logo{
+  width: 180px;
+  font-size: 20px;
+  font-size: 30px;
+}
+
+.mid-li a:hover{
+  border-bottom: 2px solid black;
+}
+
+.nav-r{
+  width: 190px;
+}
+
+.search-bar{
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.search-bts{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.nav-r input{
+  background-color: #ffffff00;
+  height: 30px;
+  width: 100px;
+  padding: 0 5px;
+  outline: none;
+  border: 0;
+}
+
+/* 漢堡 */
+.drop-down{
+  display: none;
+  top: 59px;
+  left: 0;
+  background-color: #8b8989;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.drop-down li{
+  height: 50px;
+  width: 100%;
+}
+
+.toggle{
+  height: 0;
+}
+
+.bts{
+  font-size: 25px;
+}
+
+
+/* 內容 */
+.first-section {
+  width: 100%;
+}
+
+.first-section img{
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.section-banner{
+  height: 60px;
+}
+
+
+/* 門市 */
+.cards{
+  background-color: #706d6d;
+}
+
+.section-locate-cards img{
+  border-radius:20px 20px 0 0;
+}
+
+.cards{
+  border-radius: 0 0 20px 20px;
+  color: aliceblue;
+}
+
+/* 聯絡資訊 */
+.foot{
+  height: 100px;
+  background-color: #8b8989;
+}
+
+#contect {
+  font-size: 40px;
+}
+
