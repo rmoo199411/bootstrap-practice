@@ -76,9 +76,12 @@ nav{
 /* 內容 */
 .first-section {
   width: 100%;
+  height: calc(100vh - 50px);
+  overflow: hidden;
 }
 
 .first-section img{
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }
